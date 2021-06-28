@@ -22,30 +22,13 @@ export const homeObjTwo = {
     lightText: false,
     lightTextDesc: false,
     topLine: 'Skills and Technologies',
-    headLine: 'I do Web Devlopment and Problem Solving using',
-    description: "Html, CSS, JavaScript, React.js, Nodejs, Express, MongoDB, Git, Github, Cpp, UI/UX",
+    headLine: 'I do Web Devlopment using the MERN stack and Competitive Coding Using C++',
+    description: "",
     buttonLabel: 'Checkout My Github',
     imgStart: true,
-    img: require('../../images/stack.png').default,
+    img: require('../../images/techstack.png').default,
     alt: 'me',
     dark: true,
     primary: true,
     darkText: true
-};
-
-export const homeObjThree = {
-    id: 'experience',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: 'Experience',
-    headLine: 'I have worked In  ',
-    description: 'ITESA as a full Stack developer \n and DRAIC as programmer',
-    buttonLabel: 'Checkout My Linkedin',
-    imgStart: true,
-    img: require('../../images/work.svg').default,
-    alt: 'me',
-    dark: true,
-    primary: true,
-    darkText: false
 };

@@ -4,7 +4,9 @@ import Sidebar from '../componenets/Sidebar';
 import HeroSection from '../componenets/HeroSection';
 import InfoSection from '../componenets/InfoSection';
 import Footer from '../componenets/Footer';
-import { homeObjOne, homeObjTwo, homeObjThree } from '../componenets/InfoSection/Data';
+import { homeObjOne, homeObjTwo } from '../componenets/InfoSection/Data';
+import Experience from '../componenets/Experience';
+import { homeObjThree } from '../componenets/Experience/Data';
 import Services from '../componenets/Services';
 
 
@@ -23,7 +25,7 @@ function Home() {
         <InfoSection {...homeObjOne}/>
         <InfoSection {...homeObjTwo}/>
         <Services />
-        <InfoSection {...homeObjThree}/>
+        <Experience {...homeObjThree}/>
         <Footer />   
         </>
     )

@@ -44,7 +44,7 @@ export const SocialLogo = styled(Link)`
 `
 export const WebsiteRights = styled.small`
   color: #fff;
-  margin-bottom: 16px;
+  margin-bottom: 5px;
 `
 export const SocialIcons = styled.div`
   display: flex;
@@ -56,3 +56,9 @@ export const SocialIconLink = styled.a`
   color: #fff;
   font-size: 24px;
 `
+
+export const FooterInfo = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
