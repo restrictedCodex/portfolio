@@ -9,12 +9,11 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
             </HeroBg>
             <HeroContent>
-                <HeroH2>Charudutta Chaudhari 👋</HeroH2>
-                <HeroH1>I build things for the web.</HeroH1>
-                <HeroP>
-                I'm a Pune-based software engineer who specializes in building (and occasionally designing) exceptional digital experiences.
-                Currently, I'm an engineering Student focused on building accessible, human-centered products. 
-                </HeroP>
+                <HeroP>Hii!!</HeroP>
+                <HeroH1>Charudutta Chaudhari 👋</HeroH1>
+                <HeroH2>
+                I build things for the web.
+                </HeroH2>
             </HeroContent>
         </HeroContainer>
     )
