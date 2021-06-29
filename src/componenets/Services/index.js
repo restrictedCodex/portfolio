@@ -1,12 +1,16 @@
 import React from 'react'
-import Icon1 from '../../images/svg-1.svg'
+import Pic1 from '../../images/trvl.svg'
+import Pic2 from '../../images/payment.svg'
+import Pic3 from '../../images/health.svg'
+
 import { ServicesContainer,
     ServicesH1,
     ServicesWrapper,
     ServicesCard,
     ServicesH2,
     ServicesP,
-    ServicesIcon 
+    ServicesIcon,
+    Anl 
 } from './ServicesElements'
 
 const Services = () => {
@@ -15,20 +19,22 @@ const Services = () => {
         <ServicesH1>Featured Projects</ServicesH1>
         <ServicesWrapper>
           <ServicesCard>
-            <ServicesIcon src={Icon1}/>
-            <ServicesH2>Reduce expenses</ServicesH2>
-            <ServicesP>We help your fess and increase your overall revenue.</ServicesP>
+            <ServicesIcon src={Pic1}/>
+            <ServicesH2>Outro-Trip Manager</ServicesH2>
+            <ServicesP>An Trip manager for your travel plans made using React.js and Bootstrap</ServicesP>
           </ServicesCard>
           <ServicesCard>
-          <ServicesIcon src={Icon1}/>
-            <ServicesH2>Virtual Offices</ServicesH2>
-            <ServicesP>you can acess our plataform online anywhere in the world.</ServicesP>
+          <ServicesIcon src={Pic2}/>
+            <ServicesH2>Expanse</ServicesH2>
+            <ServicesP>A Fullstack payments and expense monitoring app made with MERN stack.</ServicesP>
           </ServicesCard>
-          <ServicesCard>
-            <ServicesIcon src={Icon1}/>
-            <ServicesH2>Reduce expenses</ServicesH2>
-            <ServicesP>Unlock our special membership card that returns 5% cash back.</ServicesP>
-          </ServicesCard>
+          <Anl href='https://drive.google.com/file/d/1h47mb7tfT7nSBLGNtyxA6YIt9NdSM5NR/view?usp=sharing' alt='drivelink' target='_blank'>
+            <ServicesCard>
+              <ServicesIcon src={Pic3}/>
+              <ServicesH2>QMHST</ServicesH2>
+              <ServicesP>A quarentine health monitoring tool made for doctors during quarentne using IOT</ServicesP>
+            </ServicesCard>
+          </Anl>
         </ServicesWrapper>
       </ServicesContainer>
     )
