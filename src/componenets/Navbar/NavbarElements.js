@@ -96,7 +96,7 @@ export const NavBtn = styled.nav`
     }
 `;
 
-export const NavBtnLink = styled(LinkRouter)`
+export const NavBtnLink = styled.button`
     border-radius: 50px;
     background: #04d9ff;
     white-space: nowrap;
@@ -114,4 +114,10 @@ export const NavBtnLink = styled(LinkRouter)`
         background: #fff;
         color: #010606;
     }
+`;
+
+export const BtnLink = styled.a`
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
 `;

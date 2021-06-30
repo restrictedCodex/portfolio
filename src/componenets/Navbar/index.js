@@ -8,7 +8,8 @@ import {Nav,
         NavItem,
         NavLinks,
         NavBtn,
-        NavBtnLink
+        NavBtnLink,
+        BtnLink 
     } from './NavbarElements';
 
 import {animateScroll as scroll} from 'react-scroll';
@@ -65,7 +66,9 @@ function Navbar({toggle}) {
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
-                        <NavBtnLink to='/resume'>Resume</NavBtnLink>
+                        <BtnLink href='https://drive.google.com/file/d/1hfOw0uMmqzI6Q3B8hpbFzeckPTyteSWF/view?usp=sharing' target='_blank'>
+                            <NavBtnLink>Resume</NavBtnLink>
+                        </BtnLink>
                     </NavBtn>
                 </NavbarContainer>
            </Nav>

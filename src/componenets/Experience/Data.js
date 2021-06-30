@@ -12,5 +12,6 @@ export const homeObjThree = {
     alt: 'me',
     dark: true,
     primary: true,
-    darkText: false
+    darkText: false,
+    href: 'https://www.linkedin.com/in/charudutta-chaudhari-a980661a0/'
 };

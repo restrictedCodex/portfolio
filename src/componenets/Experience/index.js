@@ -15,10 +15,11 @@ import { InfoContainer,
     Img,
     ListHead,
     ListItem,
-    ListIcon
+    ListIcon,
+    BtnLink
 } from './ExperienceElements';
 
-const InfoSection = ({lightBg,id,imgStart,img,topLine,darkText,lightText,headLine,buttonLabel,alt,primary,dark,dark2}) => {
+const InfoSection = ({lightBg,id,imgStart,img,topLine,darkText,lightText,headLine,buttonLabel,alt,primary,dark,dark2,href}) => {
     return (
         <>
             <InfoContainer lightBg={lightBg} id={id}>
@@ -39,16 +40,18 @@ const InfoSection = ({lightBg,id,imgStart,img,topLine,darkText,lightText,headLin
                                     </ListHead>  
                                 </Subtitle>
                                 <BtnWrap>
-                                    <Button to="home"
-                                        smooth={true}
-                                        duration={500}
-                                        spy={true}
-                                        exact='true'
-                                        offset={-80}
-                                        primary={ primary ? 1:0}
-                                        dark={dark?1:0}
-                                        dark2={dark2?1:0}
-                                    >{buttonLabel}</Button>
+                                    <BtnLink href={href} target='_blank'>
+                                        <Button to="home"
+                                            smooth={true}
+                                            duration={500}
+                                            spy={true}
+                                            exact='true'
+                                            offset={-80}
+                                            primary={ primary ? 1:0}
+                                            dark={dark?1:0}
+                                            dark2={dark2?1:0}
+                                        >{buttonLabel}</Button>
+                                    </BtnLink>
                                 </BtnWrap>
                             </TextWrapper>
                         </Column1>

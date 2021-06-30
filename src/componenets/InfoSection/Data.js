@@ -6,14 +6,15 @@ export const homeObjOne = {
     lightTextDesc: true,
     topLine: 'About Me',
     headLine: 'Hi, I am Charudutta Chaudhari',
-    description: 'IT Sophmore from DY. Patil College of Engineering Pune. I am a full-stack developer in Javascript. I use the MERN stack for project development. Graphic designing, Basketball, and dancing are some of my hobbies. I also have a keen interest in VR and AR.I Contribute to open-source.',
+    description: 'IT Sophmore from DY. Patil College of Engineering Pune. I am a full-stack javascript developer. I work with the MERN stack. Graphic designing, Basketball, and dancing are some of my hobbies. I also have a keen interest in VR and AR. I contribute to various open source organisations',
     buttonLabel: 'Checkout My Linkedin',
     imgStart: false,
     img: require('../../images/about.svg').default,
     alt: 'me',
     dark: true,
     primary: true,
-    darkText: false
+    darkText: false,
+    href: 'https://www.linkedin.com/in/charudutta-chaudhari-a980661a0/'
 };
 
 export const homeObjTwo = {
@@ -30,5 +31,6 @@ export const homeObjTwo = {
     alt: 'me',
     dark: true,
     primary: true,
-    darkText: true
+    darkText: true,
+    href:'https://github.com/restrictedCodex'
 };

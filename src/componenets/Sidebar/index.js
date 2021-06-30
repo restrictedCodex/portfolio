@@ -6,7 +6,8 @@ import {SidebarContainer,
     SideBtnWrap,
     SidebarLink,
     SidebarMenu,
-    SidebarRoute
+    SidebarRoute,
+    BtnLink
     } from './SidebarElements';
 
 
@@ -33,7 +34,9 @@ function Sidebar({toggle,isOpen}) {
                     </SidebarLink>
                     </SidebarMenu>
                     <SideBtnWrap>
-                        <SidebarRoute to='/resume'>Resume</SidebarRoute>
+                        <BtnLink href='https://drive.google.com/file/d/1hfOw0uMmqzI6Q3B8hpbFzeckPTyteSWF/view?usp=sharing' target='_blank'>
+                            <SidebarRoute>Resume</SidebarRoute>
+                        </BtnLink>
                     </SideBtnWrap>
                 </SidebarWrapper>
             </SidebarContainer>   

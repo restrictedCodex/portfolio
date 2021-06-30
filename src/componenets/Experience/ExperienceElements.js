@@ -114,3 +114,9 @@ export const ListIcon = styled.img`
     margin: 5px 5px;
     padding-right: 0;
 `;
+
+export const BtnLink = styled.a`
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+`;

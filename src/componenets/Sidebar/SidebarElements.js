@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import {Link as LinkRouter} from 'react-router-dom'
 import {Link as LinkScroll} from 'react-scroll'
 import {FaTimes} from "react-icons/fa";
 
@@ -68,7 +67,7 @@ export const SideBtnWrap = styled.div`
     justify-content: center;
 `;
 
-export const SidebarRoute = styled(LinkRouter)`
+export const SidebarRoute = styled.button`
     border-radius: 50px;
     background: #04d9ff;
     white-space: normal;
@@ -86,4 +85,10 @@ export const SidebarRoute = styled(LinkRouter)`
         background: #fff;
         color: #010606;
     }
+`;
+
+export const BtnLink = styled.a`
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
 `;
