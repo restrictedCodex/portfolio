@@ -6,7 +6,7 @@ export const homeObjOne = {
     lightTextDesc: true,
     topLine: 'About Me',
     headLine: 'Hi, I am Charudutta Chaudhari',
-    description: 'IT Sophmore from DY. Patil College of Engineering Pune. I am a full-stack javascript developer. I work with the MERN stack. Graphic designing, Basketball, and dancing are some of my hobbies. I also have a keen interest in VR and AR. I contribute to various open source organisations',
+    description: 'IT Sophmore from DY. Patil College of Engineering Pune.  I am a full-stack javascript developer.Graphic designing, Basketball, and reading are some of my hobbies. I contribute to various open source projects on my free time. My near future goal is to contribute to projects like Node.js and React.js .',
     buttonLabel: 'Checkout My Linkedin',
     imgStart: false,
     img: require('../../images/about.svg').default,
