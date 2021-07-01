@@ -18,13 +18,13 @@ const Services = () => {
         <ServicesContainer id='projects'>
         <ServicesH1>Featured Projects</ServicesH1>
         <ServicesWrapper>
+        <Anl href='https://outrotripmanager.netlify.app' target='_blank'>
           <ServicesCard>
-          <Anl href='https://suspicious-raman-ed6a01.netlify.app' target='_blank'>
             <ServicesIcon src={Pic1}/>
             <ServicesH2>Outro-Trip Manager</ServicesH2>
             <ServicesP>An Trip manager for your travel plans made using React.js and Bootstrap</ServicesP>
-          </Anl>
-          </ServicesCard>
+            </ServicesCard>
+        </Anl>
           <ServicesCard>
           <ServicesIcon src={Pic2}/>
             <ServicesH2>Expanse</ServicesH2>
